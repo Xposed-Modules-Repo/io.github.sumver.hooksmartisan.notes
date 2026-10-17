@@ -10,4 +10,7 @@
 4. **去除知识库、AI等入口**
 5. **去除分享图软广页脚**
 
+<img width="1080" height="2248" alt="image" src="https://github.com/user-attachments/assets/c0aa5bc6-86fd-4a6f-941b-06995e5edb43" />
+
+
 <p></p>

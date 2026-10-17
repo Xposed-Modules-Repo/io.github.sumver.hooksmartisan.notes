@@ -1,0 +1,16 @@
+# footer-assets/source-compiled —— 编译产物 9-patch 源件（从目标 APK 提取；勿手改）
+# 用途与提取方式见《便签图片替换-技术文档.md》§3/§4。
+#
+# 本目录文件                                   ← 锤子便签.apk 内条目    对应资源名
+weibo_bg_preview.compiled.png                  ← res/6n.9.png          weibo_bg_preview
+weibo_from_other_bg_preview.compiled.png       ← res/ws.9.png          weibo_from_other_bg_preview
+weibo_background.compiled.png                  ← res/7o.9.png          weibo_background
+weibo_background_nosignature.compiled.png      ← res/Bn.9.png          weibo_background_nosignature
+weibo_background_dark.compiled.png             ← res/pz.9.png          weibo_background_dark
+weibo_background_nosignature_dark.compiled.png ← res/w5.9.png          weibo_background_nosignature_dark
+#
+# 备注：
+# · APK 内资源条目名被混淆（如 res/6n.9.png）；本目录映射由「按尺寸筛选 + 与 apktool
+#   源图裁 1px 后 cropmatch（0 失配）」鉴别得到。
+# · res/Co.9.png、res/np.9.png 为上述文件的 zh-rTW 同像素副本，未另存。
+# · 每个文件内部含 npTc（9-patch chunk）；各字段实测值见技术文档 §2 表。

@@ -1,0 +1,46 @@
+<resources>
+    <string name="app_name">锤子便签去广告</string>
+    <string name="xposed_description">去除锤子便签 (com.smartisan.notes) 的开屏广告，并清理「更多设置」页的「看视频免广告」「邀请好友得会员」入口等会员推广内容。</string>
+
+    <string name="settings_subtitle">当前适配版本：4.3.1</string>
+
+    <string name="group_splash">广告净化</string>
+    <string name="group_settings_page">设置页净化</string>
+    <string name="group_user_center">个人中心净化</string>
+    <string name="group_home">主页净化</string>
+    <string name="group_note_page">便签页净化</string>
+    <string name="group_share">分享净化</string>
+    <string name="group_sensitive_check">敏感词检测</string>
+
+    <string name="switch_splash_ad">去除开屏广告</string>
+    <string name="switch_splash_ad_summary"></string>
+    <!-- 已停用（1.9 起移除该功能，代码保留备查）：隐藏开屏页「免广告·VIP」按钮
+    <string name="switch_splash_vip">隐藏「免广告·VIP」按钮</string>
+    <string name="switch_splash_vip_summary">隐藏开屏页顶部右侧的 VIP 购买入口（默认关闭，保持原样）</string>
+    -->
+    <string name="switch_hide_reward_video">隐藏「看视频免广告」</string>
+    <string name="switch_hide_reward_video_summary">隐藏「更多设置」页的看视频领免广告权益入口</string>
+    <string name="switch_hide_invite_friends">隐藏「邀请好友得会员」</string>
+    <string name="switch_hide_invite_friends_summary">隐藏「更多设置」页的邀请好友领会员入口</string>
+    <string name="switch_hide_account_promo">隐藏「开通会员」文案</string>
+    <string name="switch_hide_account_promo_summary">隐藏开通会员文案</string>
+    <string name="switch_hide_vip_card">隐藏「便签会员」卡片</string>
+    <string name="switch_hide_vip_card_summary">隐藏个人中心的开通会员卡片</string>
+    <string name="switch_hide_rag_entry">隐藏「知识库」入口</string>
+    <string name="switch_hide_rag_entry_summary"></string>
+    <string name="switch_hide_ai_entry">隐藏顶部 AI 入口</string>
+    <string name="switch_hide_ai_entry_summary">隐藏便签查看/编辑页面标题栏的 AI 入口按钮</string>
+    <string name="switch_hide_share_import_knb">隐藏「导入到知识库」</string>
+    <string name="switch_hide_share_import_knb_summary">发送/分享弹窗中隐藏"导入到知识库"</string>
+    <string name="switch_hide_share_long_weibo">隐藏「分享至新浪长微博」</string>
+    <string name="switch_hide_share_long_weibo_summary">发送/分享弹窗中隐藏"分享至新浪长微博"</string>
+    <string name="switch_hide_share_email">隐藏「发送邮件」</string>
+    <string name="switch_hide_share_email_summary">发送/分享弹窗中隐藏"发送邮件"</string>
+    <string name="switch_allow_sensitive_share">禁止敏感词检测</string>
+    <string name="switch_allow_sensitive_share_summary">所有形式的分享，都禁止敏感词检测</string>
+    <string name="switch_hide_footer">隐藏便签图片页脚</string>
+    <string name="switch_hide_footer_summary">隐藏分享图底部的“由锤子便签发送”等页脚</string>
+
+    <string name="settings_hint_title">使用说明</string>
+    <string name="settings_hint">修改配置后需重启（强制停止）锤子便签 APP 才生效\n\n首次使用请先打开一次本模块设置界面（写入默认开关），再在 LSPosed 中勾选锤子便签并重启 APP\n\n本模块开源地址：https://github.com/Xposed-Modules-Repo/io.github.sumver.hooksmartisan.notes\n如失效、BUG请前往以上项目提交issue</string>
+</resources>

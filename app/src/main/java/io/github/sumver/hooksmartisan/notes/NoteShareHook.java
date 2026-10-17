@@ -1,4 +1,4 @@
-package com.sumver.hammernotes;
+package io.github.sumver.hooksmartisan.notes;
 
 import android.app.AndroidAppHelper;
 import android.content.res.Resources;

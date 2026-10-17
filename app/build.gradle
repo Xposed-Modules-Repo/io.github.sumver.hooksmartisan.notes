@@ -13,15 +13,15 @@ def hasReleaseSigning = localProps.getProperty('release.storeFile') != null &&
         localProps.getProperty('release.storePassword') != null
 
 android {
-    namespace 'com.sumver.hammernotes'
+    namespace 'io.github.sumver.hooksmartisan.notes'
     compileSdk 34
 
     defaultConfig {
-        applicationId "com.sumver.hammernotes"
+        applicationId "io.github.sumver.hooksmartisan.notes"
         minSdk 26
         targetSdk 34
-        versionCode 12
-        versionName "1.9.2"
+        versionCode 13
+        versionName "1.9.3"
     }
 
     signingConfigs {

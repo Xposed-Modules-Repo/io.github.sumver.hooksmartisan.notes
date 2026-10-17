@@ -1,4 +1,4 @@
-package com.sumver.hammernotes;
+package io.github.sumver.hooksmartisan.notes;
 
 /**
  * 自动生成的内置替换素材：去页脚 9-patch 位图（无边框 PNG）与运行时构造

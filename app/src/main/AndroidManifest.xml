@@ -30,7 +30,7 @@
              已被官方标记废弃（计划 2.3.0 移除），且非该机制下跨应用直读
              /data/data 私有目录不可行。开关配置改由本模块自带的只读
              ContentProvider 传递：Hook 侧（锤子便签进程）查询
-             content://com.sumver.hammernotes.prefs/settings，
+             content://io.github.sumver.hooksmartisan.notes.prefs/settings，
              不依赖任何 LSPosed 私有机制（见 Prefs / PrefsProvider）。 -->
         <meta-data
             android:name="xposedscope"
@@ -40,7 +40,7 @@
              无敏感数据；authority 必须与 Prefs.PROVIDER_AUTHORITY 保持一致）。 -->
         <provider
             android:name=".PrefsProvider"
-            android:authorities="com.sumver.hammernotes.prefs"
+            android:authorities="io.github.sumver.hooksmartisan.notes.prefs"
             android:exported="true" />
     </application>
 

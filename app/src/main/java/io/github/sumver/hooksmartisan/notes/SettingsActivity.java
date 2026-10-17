@@ -1,4 +1,4 @@
-package com.sumver.hammernotes;
+package io.github.sumver.hooksmartisan.notes;
 
 import android.content.SharedPreferences;
 import android.content.res.ColorStateList;

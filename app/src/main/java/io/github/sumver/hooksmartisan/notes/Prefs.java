@@ -1,4 +1,4 @@
-package com.sumver.hammernotes;
+package io.github.sumver.hooksmartisan.notes;
 
 import android.app.AndroidAppHelper;
 import android.app.Application;
@@ -22,7 +22,7 @@ import java.util.Set;
  *    并通过只读 ContentProvider（{@link PrefsProvider}，authority 见 {@link #PROVIDER_AUTHORITY}）
  *    把 Boolean 开关暴露给外部查询；
  *  - Hook（锤子便签）进程：启动后**异步**经 ContentResolver 查询
- *    content://com.sumver.hammernotes.prefs/settings（首次查询会拉起模块 App 进程），
+ *    content://io.github.sumver.hooksmartisan.notes.prefs/settings（首次查询会拉起模块 App 进程），
  *    成功后把整份配置缓存到进程内存；查询期间 / 查询失败时按内置默认值行事
  *    （全部开关默认开启），不阻塞便签启动。
  *  - 读取策略：**每个进程只加载一次**。因此开关修改后必须重启（强制停止）便签才生效
@@ -31,7 +31,7 @@ import java.util.Set;
 final class Prefs {
 
     /** 与 app/build.gradle 的 applicationId 保持一致（不依赖 BuildConfig 的开关）。 */
-    static final String MODULE_PKG = "com.sumver.hammernotes";
+    static final String MODULE_PKG = "io.github.sumver.hooksmartisan.notes";
     /** 设置界面与 Hook 共用同一偏好文件名。 */
     static final String FILE = "settings";
 
